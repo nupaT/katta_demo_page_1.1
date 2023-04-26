@@ -88,3 +88,21 @@ h6 {
 
 /*---------*/
 
+body {
+  margin: 0 auto;
+  display: block;
+  max-width: 1600px;
+  background-color: #444444;
+}
+
+.logo {
+  margin: 100px 0 0 80px;
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.logo__block {
+  padding: 32px 0 0 50px;
+}
+
