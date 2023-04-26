@@ -1,3 +1,4 @@
+
 /*default*/
 
 * {
@@ -90,19 +91,41 @@ h6 {
 
 body {
   margin: 0 auto;
-  display: block;
-  max-width: 1600px;
+  /* display: flex;
+  flex-direction: row; */
+  width: 1600px;
   background-color: #444444;
 }
 
-.logo {
+main {
+  display: flex;
+  flex-direction: row;
   margin: 100px 0 0 80px;
+}
+
+.logo {
   background-image: url('../img/bg.jpg');
   background-repeat: no-repeat;
   background-size: auto;
+  /* width: 50%; */
+  flex: 1 1 50%;
 }
 
 .logo__block {
   padding: 32px 0 0 50px;
+}
+
+.content {
+  padding: 113px 0 0 70px;
+  flex: 1 1 50%;
+}
+
+.content__title {
+  font-size: 32px;
+}
+
+.content__describe {
+  margin: 15px 0 0 0;
+  font-size: 20px;
 }
 
