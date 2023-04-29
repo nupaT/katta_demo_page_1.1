@@ -221,22 +221,19 @@ h1 {
   margin: 45px 0 0 5px;
 }
 
-.register__mail {
-
-}
-
-.register__mail input, .register__phone input{
+.input-place, .input-place{
   padding: 0 0 0 10px;
   width: 250px;
   height: 57px;
   font-size: 16px;
   border: 2px solid #AFAFAF;
-  
 }
 
-.register__mail input:hover, .register__phone input:hover {
+.input-place:hover,
+.input-place:focus {
   border-left: 3px solid #3698FB;
 }
+
 
 
 
