@@ -159,6 +159,7 @@ h1 {
 
 .register__social {
   display: flex;
+  justify-content: space-between;
 }
 
 .register__fasebook, .register__linkedin {
@@ -175,7 +176,7 @@ h1 {
 }
 
 .register__linkedin {
-  margin: 10px 0 0 35px;
+  margin: 10px 0 0 0;
   background-color: #0076B6;
 }
 
@@ -198,7 +199,7 @@ h1 {
   display: flex;
   margin: 50px 0 0 0;
   justify-content: center;
-  font-size: 0.95em;
+  font-size: 0.8rem;
   letter-spacing: -1px;
 }
 
@@ -216,7 +217,12 @@ h1 {
 
 .register__other {
   display: flex;
+  justify-content: space-between;
   margin: 45px 0 0 5px;
+}
+
+.register__mail {
+
 }
 
 .register__mail input, .register__phone input{
