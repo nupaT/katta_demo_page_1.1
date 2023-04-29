@@ -234,6 +234,43 @@ h1 {
   border-left: 3px solid #3698FB;
 }
 
+.register__type {
+  margin: 65px 0 0 0;
+}
 
+.type__question {
+  letter-spacing: 0.05rem;
+}
 
+.type__form {
+  margin: 15px 0 0 0;
+}
+
+.type__desc {
+  font-size: 0.8em;
+}
+
+.type__options {
+  margin: 50px 0 0 0;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.type__option {
+  /* display: flex; */
+  margin: 0 40px 0 0;
+  font-size: 16px;
+}
+
+.type__radio {
+
+}
+
+.type__label {
+ padding: 0 0 0 15px;
+}
+
+.simbol {
+ font-size: 0.6em;
+}
 
