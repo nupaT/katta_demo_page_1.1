@@ -113,6 +113,7 @@ body {
   background-color: #EFF6FF;
   /* color: #2A4A5C; */
   font-family: 'barlowregular';
+  font-size: 20px;
 }
 
 main {
@@ -149,7 +150,6 @@ h1 {
 
 .content__describe {
   margin: 17px 0 0 0;
-  font-size: 20px;
   /* letter-spacing: -1px; */
 }
 
@@ -167,7 +167,7 @@ h1 {
   align-items: center;
   width: 245px;
   height: 43px;
-  
+  font-size: 14px;
 }
 
 .register__fasebook {
@@ -213,5 +213,24 @@ h1 {
   width: 100px;
   border-bottom: 2px solid #AFAFAF;
 }
+
+.register__other {
+  display: flex;
+  margin: 45px 0 0 5px;
+}
+
+.register__mail input, .register__phone input{
+  padding: 0 0 0 10px;
+  width: 250px;
+  height: 57px;
+  font-size: 16px;
+  border: 2px solid #AFAFAF;
+  
+}
+
+.register__mail input:hover, .register__phone input:hover {
+  border-left: 3px solid #3698FB;
+}
+
 
 
